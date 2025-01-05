@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Martinez | UX/UI Designer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Enlace a tu archivo CSS -->
-    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de que 'styles.css' esté en la misma carpeta o pon la ruta correcta -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Carlos Martinez</h1>
-        <p>Junior UX/UI Designer | Passionate about crafting intuitive user experiences</p>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="header-content">
+            <h1>Carlos Martinez</h1>
+            <p>Junior UX/UI Designer | Crafting Intuitive User Experiences</p>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <div class="container">
         <section id="about" class="section">
             <h2>About Me</h2>
-            <p>
-                I'm a Junior UX/UI Designer with experience in wireframing, prototyping, and responsive design. 
-                I enjoy creating designs that solve real-world problems and enhance user experiences. 
-                My foundational knowledge of HTML, CSS, and JavaScript allows me to effectively collaborate 
-                with development teams and contribute to the implementation of designs.
-            </p>
+            <div class="about-content">
+                <img src="your-photo.jpg" alt="Carlos Martinez" class="about-img">
+                <p>
+                    I am a passionate Junior UX/UI Designer with a strong foundation in wireframing, prototyping, and responsive web design. 
+                    With my knowledge of HTML, CSS, and JavaScript, I create designs that focus on solving real-world problems and enhancing user experiences. 
+                    I am committed to continuous learning and improving my skills to better contribute to my team and projects.
+                </p>
+            </div>
         </section>
 
         <section id="projects" class="section">
@@ -37,14 +41,21 @@
                     <img src="project1.jpg" alt="Project 1">
                     <div class="project-info">
                         <h3>Redesign of E-commerce Website</h3>
-                        <p>Improved user flow and optimized responsive design for a better shopping experience.</p>
+                        <p>Enhanced user flow and optimized the design for a seamless shopping experience.</p>
                     </div>
                 </div>
                 <div class="project-card">
                     <img src="project2.jpg" alt="Project 2">
                     <div class="project-info">
                         <h3>Mobile App UI Prototype</h3>
-                        <p>Designed and prototyped a finance management app to improve usability and aesthetics.</p>
+                        <p>Designed and prototyped a finance app, focusing on usability and aesthetics.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Corporate Website Redesign</h3>
+                        <p>Modernized the design of a corporate website to reflect the brand’s new direction and improve user navigation.</p>
                     </div>
                 </div>
             </div>
@@ -52,9 +63,11 @@
 
         <section id="contact" class="section">
             <h2>Contact</h2>
-            <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
-            <p>Email: <a href="mailto:carlosmartinezhold@gmail.com">carlosmartinezhold@gmail.com</a></p>
-            <p>Phone: +34 655 90 44 16</p>
+            <div class="contact-info">
+                <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+                <p>Email: <a href="mailto:carlosmartinezhold@gmail.com">carlosmartinezhold@gmail.com</a></p>
+                <p>Phone: +34 655 90 44 16</p>
+            </div>
         </section>
     </div>
 
